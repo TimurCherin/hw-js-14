@@ -100,9 +100,9 @@ const myArray = {
   };
   // ex 5
   const emailInputName = "email";
-  const passwordInputName = "password";
-  const credentials = {
-    emailInputName: "henry.carter@aptmail.com",
-    passwordInputName: "jqueryismyjam",
-  };
+const passwordInputName = "password";
+const credentials = {
+  [emailInputName]: "henry.carter@aptmail.com",
+  [passwordInputName]: "jqueryismyjam",
+};
   
